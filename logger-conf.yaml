@@ -1,0 +1,27 @@
+cores: 
+  - addr: "localhost"
+    host: "localhost"
+    level: "info"
+    encoding: "json"
+    stacktrace: "warn"
+    outputConfig:
+      useCapitalColor: false
+      useStdOut: false
+      path: "out.json"
+      flushseconds: 5
+      buffersize: 1024
+  - addr: "localhost"
+    host: "localhost"
+    level: "warn"
+    encoding: "json"
+    stacktrace: "info"
+    outputConfig:
+      useCapitalColor: false
+      useStdOut: false
+      path: "out1.json"
+      flushseconds: 5
+      buffersize: 1024
+
+caller: true
+development: true
+udp: "udp"
